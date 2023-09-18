@@ -44,4 +44,7 @@ export const config: Config = {
     // read directly from a .env file, but unable to get `rollup-plugin-dotenv` working. more investigation required.
     replace(credentials),
   ],
+  extras: {
+    experimentalImportInjection: true
+  }
 };
