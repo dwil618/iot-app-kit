@@ -1,5 +1,69 @@
 # Changelog
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/dashboard-v7.3.1...dashboard-v8.0.0) (2023-09-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* aggregation and resolution picker
+
+### Features
+
+* aggregation and resolution picker ([77a53fe](https://github.com/dwil618/iot-app-kit/commit/77a53feffdb1956707dca5d45f43a1f7ea0c5453))
+* auto collapse state for both panels ([fc54b1c](https://github.com/dwil618/iot-app-kit/commit/fc54b1cb71979e48dc5440620577ca8a2adc4be6))
+* **dashboard:** add advanced search using knowledge graph to query editor ([8722b33](https://github.com/dwil618/iot-app-kit/commit/8722b338a919d6fb51b21a861cf7e96e44246dbd))
+* **dashboard:** add api for customizing the properties panel ([368ad97](https://github.com/dwil618/iot-app-kit/commit/368ad974a5fa0e22851918b89b8e3a152165dbe8))
+* **dashboard:** add significant digits configuration ([bcc5c51](https://github.com/dwil618/iot-app-kit/commit/bcc5c51a1732bc785a45ec939fb111f52ae14421))
+* **dashboard:** add widget tile ([13573c5](https://github.com/dwil618/iot-app-kit/commit/13573c59d560e7192159db8751d6818cfebcf531))
+* **dashboard:** break out properties sections into tabs ([fb8b685](https://github.com/dwil618/iot-app-kit/commit/fb8b685f1d6ea8459c40637f12f0cf6ddc75aa55))
+* **dashboard:** change dashboard viewport default from 5m to 10m ([803d9a4](https://github.com/dwil618/iot-app-kit/commit/803d9a4944f6a55cb2e0e9691ddc3e537966c501))
+* **dashboard:** line symbol ([bba8e8d](https://github.com/dwil618/iot-app-kit/commit/bba8e8d392f73b3e52109bad1557cda4ef00221c))
+* **dashboard:** rectangle drag and drop ([57b56c8](https://github.com/dwil618/iot-app-kit/commit/57b56c86b4d9bf856f12a0ed69113e3218ce005b))
+* **dashboard:** refactor asset description sdk calls to use tanstack ([f99bcde](https://github.com/dwil618/iot-app-kit/commit/f99bcde75f3fad7dac82ac657f1a2aca8dbbbc4c))
+* **dashboard:** update collapsible side panels ([1495451](https://github.com/dwil618/iot-app-kit/commit/149545160551174af83ce3ddb2a61f1a61977c94))
+* **react-component:** adding config service to toggle echarts ([96d0351](https://github.com/dwil618/iot-app-kit/commit/96d0351b7e20a728154d3ebfed0efd5205b841bd))
+* **react-component:** adding the inital implementation of the trend cursors ([ce37fe2](https://github.com/dwil618/iot-app-kit/commit/ce37fe21a36f13fe1438c0653eb47992d774b15e))
+* **react-components:** add significant digits configuration for charts ([41cba0e](https://github.com/dwil618/iot-app-kit/commit/41cba0e655ac944889d6f15db56282a30e53997e))
+* **react-components:** adding TrendCursor Sync to dashboard ([d046184](https://github.com/dwil618/iot-app-kit/commit/d046184b836e9cb3670b210eb24c4fd91167b52a))
+* **react-components:** base echarts ([bc6ee62](https://github.com/dwil618/iot-app-kit/commit/bc6ee6250417a7d71f6aaf0692f1a02d4059b8f6))
+* **react-components:** feature flag context ([d313682](https://github.com/dwil618/iot-app-kit/commit/d31368282b9f5882c6f6cef0a66c2c085ee56aff))
+* **react-components:** sync echarts viewport ([e04e040](https://github.com/dwil618/iot-app-kit/commit/e04e04079630361047e82d8564678cd4e5857cdd))
+* table widget pagination and sortingdisabled ([b727eae](https://github.com/dwil618/iot-app-kit/commit/b727eae8364f19f2e997fa0c9275e1f0a947f854))
+
+
+### Bug Fixes
+
+* **dashboard:** add box sizing reset for dashboard ([712598b](https://github.com/dwil618/iot-app-kit/commit/712598b13f4c3c81a3d4d8b6609d7bd149c16859))
+* **dashboard:** add scss loader to dashboard storybook ([1e8a2a3](https://github.com/dwil618/iot-app-kit/commit/1e8a2a3ad82228fe016820386c28756bd37259ad))
+* **dashboard:** adding a ts module file for supporting svg files ([61ac00d](https://github.com/dwil618/iot-app-kit/commit/61ac00dba2029a060692fd736616185f07b74bc2))
+* **dashboard:** better toolbar ([c0b9cc8](https://github.com/dwil618/iot-app-kit/commit/c0b9cc8bf135caaa8f5722defba87be65ef06f70))
+* **dashboard:** change min widget sizing from 2 to 1 ([d840fc1](https://github.com/dwil618/iot-app-kit/commit/d840fc1ac8efbe9e79ff5937f22cc3545abfdd0d))
+* **dashboard:** editable link ([1675de6](https://github.com/dwil618/iot-app-kit/commit/1675de6ff50f536b27d6258734fb312f50b40c7b))
+* **dashboard:** fixed the flash of graphs on change in query(s) ([45edc69](https://github.com/dwil618/iot-app-kit/commit/45edc69ae67796ce9566c491a8f39921029ad0a0))
+* **react-components:** fixing the viewport and some styling elements ([7d3526e](https://github.com/dwil618/iot-app-kit/commit/7d3526e34c86b55632a4d5aa0c7029fd1499a48b))
+* **react-components:** the dependencies were added to dashboard instead of react-components ([8b2f12f](https://github.com/dwil618/iot-app-kit/commit/8b2f12fb67a1705ffdb722e02cf8c1ff1ae2ed97))
+* **react-components:** updating echarts ux ([ddfc9c8](https://github.com/dwil618/iot-app-kit/commit/ddfc9c8cc15f32a8c307653daf5d2159918e58b2))
+* **react-component:** updating the calculateTimeStamp method to use ([e0e1f42](https://github.com/dwil618/iot-app-kit/commit/e0e1f428f012b157938eced89efcd30101f2d7f5))
+* resolved table widget column resize issue ([8b6b418](https://github.com/dwil618/iot-app-kit/commit/8b6b4189601c594ffef9dd6ed915e6ddbf7fa938))
+* resolved table widget column resize issue ([08b1993](https://github.com/dwil618/iot-app-kit/commit/08b19932614978cac915e34a27747f72da78c657))
+* use REGION env variable in dashboard testing environment ([c62e68b](https://github.com/dwil618/iot-app-kit/commit/c62e68bc9181ad2d6995097fb60638f41dc168ab))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/components bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/core bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/core-util bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/react-components bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/source-iotsitewise bumped from 7.3.1 to 8.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/testing-util bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/ts-config bumped from 7.3.1 to 8.0.0
+    * eslint-config-iot-app-kit bumped from 7.3.1 to 8.0.0
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/dashboard-v7.3.0...dashboard-v7.3.1) (2023-08-24)
 
 

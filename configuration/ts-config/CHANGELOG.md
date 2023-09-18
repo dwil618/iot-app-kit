@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/ts-config-v7.3.1...ts-config-v8.0.0) (2023-09-18)
+
+
+### Miscellaneous Chores
+
+* **ts-config:** Synchronize iot-app-kit versions
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/ts-config-v7.3.0...ts-config-v7.3.1) (2023-08-24)
 
 

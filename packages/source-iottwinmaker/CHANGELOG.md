@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/source-iottwinmaker-v7.3.1...source-iottwinmaker-v8.0.0) (2023-09-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **composer:** use binding provider from TM-source
+* aggregation and resolution picker
+
+### Features
+
+* aggregation and resolution picker ([77a53fe](https://github.com/dwil618/iot-app-kit/commit/77a53feffdb1956707dca5d45f43a1f7ea0c5453))
+* **composer:** implement useBindingData and integrate to Tag ([e694433](https://github.com/dwil618/iot-app-kit/commit/e6944332e8fcc516ecdd3b6978725691a089f1ca))
+* **composer:** render tags from layer ([d9c5191](https://github.com/dwil618/iot-app-kit/commit/d9c519114d3e39c3913eb32b23984f8204b756d8))
+* **composer:** use binding provider from TM-source ([61f6a54](https://github.com/dwil618/iot-app-kit/commit/61f6a5456aae9cb2ae826e3c2d700e0bba69c6af))
+* **TM-source:** add entity APIs to SceneMetadataModule ([1a91084](https://github.com/dwil618/iot-app-kit/commit/1a910844692aa30bbd4b9d1920d415378bcad130))
+* **TM-source:** add entity data binding provider ([d1c459d](https://github.com/dwil618/iot-app-kit/commit/d1c459d4e897171922d6821da01dcbae6fd000da))
+* **TM-source:** add property value query ([21091d9](https://github.com/dwil618/iot-app-kit/commit/21091d9e3bb19a2c6181f2eeb1354ce2fa31ca45))
+* **TM-source:** flag static property data binding ([eeeaecd](https://github.com/dwil618/iot-app-kit/commit/eeeaecdadd55977633ae884607e2f4e56e467044))
+* **TM-source:** use Tanstack query to cache requests ([0d87068](https://github.com/dwil618/iot-app-kit/commit/0d870684b8fa61e2e2a6d3afc5d0f4dd70fad9a3))
+
+
+### Bug Fixes
+
+* **composer:** error handling for Matterport scene ([24ca493](https://github.com/dwil618/iot-app-kit/commit/24ca4932457f4605f05af98bb13294143d15371a))
+* **TM-source:** fix tanstack query import ([3bc704f](https://github.com/dwil618/iot-app-kit/commit/3bc704fa4ccbf3a74baa8e575e0ac5bc7ff4cf87))
+* use isRefreshing to show paginated request ([97d1e5e](https://github.com/dwil618/iot-app-kit/commit/97d1e5e3ccd5e8f7054d4e965dd7886346020d4c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 7.3.1 to 8.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/ts-config bumped from 7.3.1 to 8.0.0
+    * eslint-config-iot-app-kit bumped from 7.3.1 to 8.0.0
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/source-iottwinmaker-v7.3.0...source-iottwinmaker-v7.3.1) (2023-08-24)
 
 

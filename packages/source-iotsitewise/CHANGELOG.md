@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/source-iotsitewise-v7.3.1...source-iotsitewise-v8.0.0) (2023-09-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* aggregation and resolution picker
+
+### Features
+
+* aggregation and resolution picker ([77a53fe](https://github.com/dwil618/iot-app-kit/commit/77a53feffdb1956707dca5d45f43a1f7ea0c5453))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/core-util bumped from 7.3.1 to 8.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/testing-util bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/ts-config bumped from 7.3.1 to 8.0.0
+    * eslint-config-iot-app-kit bumped from 7.3.1 to 8.0.0
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/source-iotsitewise-v7.3.0...source-iotsitewise-v7.3.1) (2023-08-24)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/jest-config-v7.3.1...jest-config-v8.0.0) (2023-09-18)
+
+
+### Features
+
+* **react-component:** adding drag and delete to TC ([7c6a017](https://github.com/dwil618/iot-app-kit/commit/7c6a017eaad9fe4c2f6881adb7e807f4b154f93c))
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/jest-config-v7.3.0...jest-config-v7.3.1) (2023-08-24)
 
 
