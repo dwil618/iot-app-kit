@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/components-v7.3.1...components-v8.0.0) (2023-09-18)
+
+
+### Features
+
+* **composer:** integrate scene viewer with TimeSync viewport ([6c92201](https://github.com/dwil618/iot-app-kit/commit/6c92201aaa10c453c81cb6bf8ced349c55b47a19))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/related-table bumped from 7.3.1 to 8.0.0
+  * devDependencies
+    * @iot-app-kit/source-iotsitewise bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/testing-util bumped from 7.3.1 to 8.0.0
+    * eslint-config-iot-app-kit bumped from 7.3.1 to 8.0.0
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/components-v7.3.0...components-v7.3.1) (2023-08-24)
 
 

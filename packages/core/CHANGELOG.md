@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/core-v7.3.1...core-v8.0.0) (2023-09-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* aggregation and resolution picker
+
+### Features
+
+* aggregation and resolution picker ([77a53fe](https://github.com/dwil618/iot-app-kit/commit/77a53feffdb1956707dca5d45f43a1f7ea0c5453))
+* **TM-source:** add property value query ([21091d9](https://github.com/dwil618/iot-app-kit/commit/21091d9e3bb19a2c6181f2eeb1354ce2fa31ca45))
+
+
+### Bug Fixes
+
+* use isRefreshing to show paginated request ([97d1e5e](https://github.com/dwil618/iot-app-kit/commit/97d1e5e3ccd5e8f7054d4e965dd7886346020d4c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/ts-config bumped from 7.3.1 to 8.0.0
+    * eslint-config-iot-app-kit bumped from 7.3.1 to 8.0.0
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/core-v7.3.0...core-v7.3.1) (2023-08-24)
 
 

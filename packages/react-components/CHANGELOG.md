@@ -2,6 +2,88 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+## [8.0.0](https://github.com/dwil618/iot-app-kit/compare/react-components-v7.3.1...react-components-v8.0.0) (2023-09-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* aggregation and resolution picker
+
+### Features
+
+* **3dkg:** 3dkg release ([7c01c91](https://github.com/dwil618/iot-app-kit/commit/7c01c911936314b4b99614c367e2bc6f6522a024))
+* aggregation and resolution picker ([77a53fe](https://github.com/dwil618/iot-app-kit/commit/77a53feffdb1956707dca5d45f43a1f7ea0c5453))
+* **dashboard:** add advanced search using knowledge graph to query editor ([8722b33](https://github.com/dwil618/iot-app-kit/commit/8722b338a919d6fb51b21a861cf7e96e44246dbd))
+* **dashboard:** rectangle drag and drop ([57b56c8](https://github.com/dwil618/iot-app-kit/commit/57b56c86b4d9bf856f12a0ed69113e3218ce005b))
+* **echarts:** allow scroll left and right ([5d2341e](https://github.com/dwil618/iot-app-kit/commit/5d2341e71f531556ac8147e1a0742233992ed82d))
+* **echarts:** threshold support ([2d7ccfe](https://github.com/dwil618/iot-app-kit/commit/2d7ccfe6695070126b60f352733ef1512c966984))
+* **KG Component:** event modeling ([b918237](https://github.com/dwil618/iot-app-kit/commit/b918237e82738cf1dbc61f95c303881b65166abb))
+* **Knowledge Graph:** adding clear and render graph results events ([5479a51](https://github.com/dwil618/iot-app-kit/commit/5479a51b85574d4c751c8e0aba40fa54e76d7504))
+* **Knowledge Graph:** adding KG parent component, search and explore logic ([95cc307](https://github.com/dwil618/iot-app-kit/commit/95cc307d6fcf2592d376830283069ddce463d0cf))
+* **react-component:** adding config service to toggle echarts ([96d0351](https://github.com/dwil618/iot-app-kit/commit/96d0351b7e20a728154d3ebfed0efd5205b841bd))
+* **react-component:** adding context menu per chart ([a368eb9](https://github.com/dwil618/iot-app-kit/commit/a368eb99b230f2a5a8bb39d7c0bc52e42ae9f5ad))
+* **react-component:** adding drag and delete to TC ([7c6a017](https://github.com/dwil618/iot-app-kit/commit/7c6a017eaad9fe4c2f6881adb7e807f4b154f93c))
+* **react-component:** adding resizability for Charts components ([3ae7f56](https://github.com/dwil618/iot-app-kit/commit/3ae7f568a30947782c2d29ecf72eacf3df31d18b))
+* **react-component:** adding sorting ability for the chart legends ([ca330eb](https://github.com/dwil618/iot-app-kit/commit/ca330eb711923a32531871b714c2252fe31850ae))
+* **react-component:** adding TC markers ([4105adb](https://github.com/dwil618/iot-app-kit/commit/4105adb218fbf05b6145348d660fc24b2cec0b66))
+* **react-component:** adding the inital implementation of the trend cursors ([ce37fe2](https://github.com/dwil618/iot-app-kit/commit/ce37fe21a36f13fe1438c0653eb47992d774b15e))
+* **react-component:** adding trendcursor sync component ([52d6033](https://github.com/dwil618/iot-app-kit/commit/52d6033337937c5b7b1774d5a5b04907e126df60))
+* **react-components:** add a sitewise connected chart story ([b66de3b](https://github.com/dwil618/iot-app-kit/commit/b66de3b4d87ac2a3157c6cae176a216dff1ceb92))
+* **react-components:** add chart component with updated api ([bbbc55f](https://github.com/dwil618/iot-app-kit/commit/bbbc55fbeeb12215be917ffc5147c5181ada5fec))
+* **react-components:** add menu component ([cdd196e](https://github.com/dwil618/iot-app-kit/commit/cdd196ebcf42b5ddbdc34005fe4b54ae24767609))
+* **react-components:** add multiple y axis legend ([79023c0](https://github.com/dwil618/iot-app-kit/commit/79023c025e09e3ad485c84ad1d54b0ed2e0e0589))
+* **react-components:** add significant digits configuration for charts ([41cba0e](https://github.com/dwil618/iot-app-kit/commit/41cba0e655ac944889d6f15db56282a30e53997e))
+* **react-components:** add time selection component to react components ([e99f301](https://github.com/dwil618/iot-app-kit/commit/e99f3011a063c861cc22264687a9f3d5d9d56841))
+* **react-components:** adding resizing to trend cursors ([400189a](https://github.com/dwil618/iot-app-kit/commit/400189a221f16123ce193222eacd2583ea25360a))
+* **react-components:** adding TrendCursor Sync to dashboard ([d046184](https://github.com/dwil618/iot-app-kit/commit/d046184b836e9cb3670b210eb24c4fd91167b52a))
+* **react-components:** base echarts ([bc6ee62](https://github.com/dwil618/iot-app-kit/commit/bc6ee6250417a7d71f6aaf0692f1a02d4059b8f6))
+* **react-components:** feature flag context ([d313682](https://github.com/dwil618/iot-app-kit/commit/d31368282b9f5882c6f6cef0a66c2c085ee56aff))
+* **react-components:** supporting live mode in echarts ([cdf1caa](https://github.com/dwil618/iot-app-kit/commit/cdf1caab9399cc770c91c3fd40ffde23e7795ab5))
+* **react-components:** sync echarts viewport ([e04e040](https://github.com/dwil618/iot-app-kit/commit/e04e04079630361047e82d8564678cd4e5857cdd))
+* **SkinVisualization:** enable default style for visualization and allow overrides ([6240195](https://github.com/dwil618/iot-app-kit/commit/624019522a940bc9cf5c69253156db871576302d))
+* table widget pagination and sortingdisabled ([b727eae](https://github.com/dwil618/iot-app-kit/commit/b727eae8364f19f2e997fa0c9275e1f0a947f854))
+* **Vite:** migrate example app to vite ([d2e65be](https://github.com/dwil618/iot-app-kit/commit/d2e65bed32dc3c470b52d418dacb61610c16ab5a))
+
+
+### Bug Fixes
+
+* **3DKG:** fix height flexibility for KG component ([f9943ce](https://github.com/dwil618/iot-app-kit/commit/f9943cee4741da7b5fc2f11f67a429424c2d88b7))
+* **CSS-Loader:** updated sass-loader & fixed style ([aee4abc](https://github.com/dwil618/iot-app-kit/commit/aee4abcd22617cd1b28641711a4be2d1bab4e252))
+* **dashboard:** fixed the flash of graphs on change in query(s) ([45edc69](https://github.com/dwil618/iot-app-kit/commit/45edc69ae67796ce9566c491a8f39921029ad0a0))
+* graph css not distributed correctly ([d7b2717](https://github.com/dwil618/iot-app-kit/commit/d7b2717647507533bfeda81774c44a3c5727e15c))
+* **KG Component:** ux review changes ([9133094](https://github.com/dwil618/iot-app-kit/commit/9133094b7352676277e951dda2c92cb0db566488))
+* **knowledge-graph:** fix node to node selection and layout adjustment ([98df518](https://github.com/dwil618/iot-app-kit/commit/98df518f25cc3a15254917520a1750d013fc2984))
+* **react-component:** removing the dependency of the yMin and Ymax and ([9360fe4](https://github.com/dwil618/iot-app-kit/commit/9360fe42e081263ccd1896f47fb5d8a7ba6b1d0f))
+* **react-component:** removing transition animation for trend cursors ([5e84d15](https://github.com/dwil618/iot-app-kit/commit/5e84d15fcecb7ee0e1f242fd0f1ce47960818696))
+* **react-components:** add memoization for chart reactivity and refactor echarts hook ([128f5b0](https://github.com/dwil618/iot-app-kit/commit/128f5b0c2f8a1c164241ef216d5d489d9d69164c))
+* **react-components:** echarts resize drag fix ([19ccc7e](https://github.com/dwil618/iot-app-kit/commit/19ccc7ee4569aea891b43883a8ba1dedf3ac4fc9))
+* **react-components:** ensure provider is unsubscribed correctly ([2db74d2](https://github.com/dwil618/iot-app-kit/commit/2db74d2d51f1104478540528cb4be982c4afc351))
+* **react-components:** fixing TCs on data zoom ([379525c](https://github.com/dwil618/iot-app-kit/commit/379525cd1246061398ff8a113963b968466ae11a))
+* **react-components:** fixing the duplicate yAxis values ([60073ef](https://github.com/dwil618/iot-app-kit/commit/60073ef7ea4e1167218c8cdecd021bc677d5cc66))
+* **react-components:** fixing the viewport and some styling elements ([7d3526e](https://github.com/dwil618/iot-app-kit/commit/7d3526e34c86b55632a4d5aa0c7029fd1499a48b))
+* **react-components:** need stop propagation in start and end of resize event ([30e9901](https://github.com/dwil618/iot-app-kit/commit/30e99010bc57e48040ddcac8c41546e745a5a3f9))
+* **react-components:** the dependencies were added to dashboard instead of react-components ([8b2f12f](https://github.com/dwil618/iot-app-kit/commit/8b2f12fb67a1705ffdb722e02cf8c1ff1ae2ed97))
+* **react-components:** updating echarts ux ([ddfc9c8](https://github.com/dwil618/iot-app-kit/commit/ddfc9c8cc15f32a8c307653daf5d2159918e58b2))
+* **react-component:** updating the calculateTimeStamp method to use ([e0e1f42](https://github.com/dwil618/iot-app-kit/commit/e0e1f428f012b157938eced89efcd30101f2d7f5))
+* **react-component:** updating the sytling and adding some visual ques for the trend cursors ([dc50a2c](https://github.com/dwil618/iot-app-kit/commit/dc50a2c8c04167f1137deec350d735847d6d233a))
+* **scene composer:** refactoring video player to work with react 18 updates ([c177802](https://github.com/dwil618/iot-app-kit/commit/c1778025babf75d89d74c1b355f54e46f2e740be))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/components bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/core bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/core-util bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/source-iottwinmaker bumped from 7.3.1 to 8.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/source-iotsitewise bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/testing-util bumped from 7.3.1 to 8.0.0
+    * @iot-app-kit/ts-config bumped from 7.3.1 to 8.0.0
+    * eslint-config-iot-app-kit bumped from 7.3.1 to 8.0.0
+
 ## [7.3.1](https://github.com/awslabs/iot-app-kit/compare/react-components-v7.3.0...react-components-v7.3.1) (2023-08-24)
 
 
